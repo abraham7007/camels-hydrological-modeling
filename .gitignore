@@ -1,0 +1,16 @@
+# Local virtual environment
+.venv/
+
+# CAMELS dataset (~740 MB, downloaded by the notebook)
+content/
+
+# Cloned UQnet repo (PI3NN section clones it at runtime)
+UQnet/
+
+# Execution logs and pre-run backup
+nbrun*.log
+*.ORIG.ipynb
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
